@@ -1,0 +1,31 @@
+public class Empleado{
+    private string nombre;
+    private double salario;
+
+    public empleado(){}
+
+    public Empleado (string nombre, doble salario){
+        this.nombre = nombre;
+        this.salario = salario;
+    }
+
+    public vpid setSalario(double salario){
+        this.salario = salario;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getNombre(){
+        return nombre;
+    }
+
+    public double getSalario(){
+        return salario;
+    }
+
+    public void aumentarSalario(){
+        salario *= 1.05;
+    }
+}
